@@ -11,7 +11,7 @@ docker build -t myeos -f Dockerfile.ubuntu .
 ```
 
 NOTES:
-
+```
 RUN apt-get update && apt-get install -y --no-install-recommends libssl1.1 libcurl3-gnutls \
     libusb-1.0-0 git automake clang-8 curl make apt-transport-https ca-certificates gnupg \
     libtool software-properties-common wget llvm-4.0 openssl1.1 libssl-dev libgmp3-dev libicu60 \
@@ -22,3 +22,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends libssl1.1 libcu
 
   libllvm4.0
   llvm-4.0-dev
+```
